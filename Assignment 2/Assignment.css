@@ -1,0 +1,93 @@
+
+  h1{
+    font-size: 100px;
+    font: comic sans-serif;
+    color: rgb(47, 0, 255);
+    text-align: center;
+    padding: 25px 50px;
+  }
+
+  main{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 2fr 2fr;
+      grid-template-areas: 
+                "header1 header2 header3 header4"
+                "side main1 main2 side2"
+  }
+
+  img{
+    width: 200px;
+    height: 200px;
+    align-content: center;
+    object-fit: contain;
+    padding: 50px 50px 50px 50px;
+  }
+
+  img:hover{
+      transform: scale(1.5);
+  }
+
+  .header1:hover{
+      background-color: yellow;
+  }
+  .header1 {
+      grid-area: header1;
+  }
+
+  .header2:hover{ 
+      background-color: aquamarine;
+  }
+  .header2 {
+    grid-area: header2;
+  }
+.header3:hover{
+    background-color: maroon
+}
+  .header3 {
+    grid-area: header3;
+  }
+
+  .header4:hover{
+      background-color: rgb(3, 3, 160)
+    }
+  .header4 {
+    grid-area: header4;
+  }
+
+  .side1:hover{
+    background-color: rgb(3, 3, 160)
+  }
+  .side1{
+      grid-area: side;
+  }
+
+  .side2:hover{
+    background-color: yellow
+}
+  .side2{
+      grid-area: side2;
+  }
+
+  .main1:hover{
+    background-color: maroon
+}
+  .main1{
+      grid-area: main1;
+  }
+
+  .main2:hover{ 
+    background-color: aquamarine;
+}
+  .main2{
+      grid-area: main2;
+  }
+
+
+
+
+  
+  
+  
+
+  
